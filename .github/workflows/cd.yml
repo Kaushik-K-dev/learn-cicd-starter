@@ -20,5 +20,5 @@ jobs:
       
       - name: Build the app
         run: |
-        chmod +x scripts/buildprod.sh
-        .scripts/buildprod.sh
+          chmod +x scripts/buildprod.sh
+          .scripts/buildprod.sh
