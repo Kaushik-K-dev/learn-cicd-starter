@@ -9,7 +9,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
 
-  steps:
+    steps:
       - name: Check out code
         uses: actions/checkout@v4
 
@@ -20,5 +20,5 @@ jobs:
       
       - name: Build the app
         run: |
-        chmod +x scripts/buildprod.sh
-        .scripts/buildprod.sh
+          chmod +x scripts/buildprod.sh
+          ./scripts/buildprod.sh
